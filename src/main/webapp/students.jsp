@@ -23,6 +23,9 @@
 		<div class="container">
 			<h2>Listado de Estudiantes</h2>
 		</div>
+		<div class="row">
+			<h4><%= session.getAttribute("username")%></h4>
+		</div>
 		<table class="table">
 			<thead class="table-dark">
 				<tr>
